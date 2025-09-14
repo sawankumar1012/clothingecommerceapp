@@ -1,4 +1,4 @@
-export { SlidingIndicator } from './SlidingIndicator';
+
 export { TabItem } from './TabItem';
 export { TabSelector } from './TabSelector';
 export type {
