@@ -1,7 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-
-export default function TabTwoScreen() {
+export default function ExploreScreen() {
   return (
     <>
     </>
@@ -20,4 +19,3 @@ const styles = StyleSheet.create({
     gap: 8,
   },
 });
- 

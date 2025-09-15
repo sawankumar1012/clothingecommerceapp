@@ -54,8 +54,8 @@ This app showcases various sophisticated animations implemented with React Nativ
    - Press `a` for Android Emulator  
    - Scan QR code with Expo Go app on your device
 
-### 📱 Snack Link
-*[Snack link will be added once published to Expo Snack]*
+### 📱 Snack Compatibility
+This app is now fully compatible with Expo Snack! The navigation has been converted from file-based routing (Expo Router) to standard React Navigation, making it work seamlessly in the Snack environment.
 
 ## 🏗️ Component Structure & State Management
 
@@ -63,12 +63,10 @@ This app showcases various sophisticated animations implemented with React Nativ
 The app follows a component-based architecture with centralized state management:
 
 ```
-app/
-├── (tabs)/           # Tab-based navigation
-│   ├── index.tsx     # Home screen with tab selector
-│   └── explore.tsx   # Secondary tab (placeholder)
-├── _layout.tsx       # Root navigation layout
-└── modal.tsx         # Modal screen
+screens/
+├── HomeScreen.tsx    # Home screen with tab selector
+├── ExploreScreen.tsx # Secondary tab (placeholder)
+└── ModalScreen.tsx   # Modal screen
 
 components/
 ├── ui/
@@ -114,7 +112,7 @@ components/
 - **Framework**: Expo SDK 54.0.7
 - **React Native**: 0.81.4
 - **Animations**: React Native Reanimated 4.1.0
-- **Navigation**: Expo Router 6.0.4 with file-based routing
+- **Navigation**: React Navigation 7.x with bottom tabs and stack navigation
 - **Gestures**: React Native Gesture Handler 2.28.0
 - **Images**: Expo Image 3.0.8
 - **Icons**: Expo Vector Icons 15.0.2
