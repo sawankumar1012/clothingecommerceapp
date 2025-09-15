@@ -2,6 +2,24 @@
 
 A beautifully animated React Native fashion collection app built with Expo, featuring smooth animations, elegant UI components, and an intuitive tab-based navigation system.
 
+## 🌿 Branch Information
+
+This repository has two main branches for different development approaches:
+
+### 📱 `main` branch - Expo Router Version
+- **Use this branch for**: Local development with Expo Router
+- **Features**: Full Expo Router navigation system
+- **Best for**: Production builds and local development
+- **Run with**: `npx expo start`
+
+### 🌐 `snackversion2` branch - Snack Compatible Version  
+- **Use this branch for**: Expo Snack online demos
+- **Features**: Snack-compatible navigation without Expo Router
+- **Best for**: Quick demos and sharing
+- **Try online**: [Expo Snack Demo](https://snack.expo.dev/@sawankumar1012/github.com-sawankumar1012-clothingecommerceapp@snackversion2)
+
+**Current branch**: You are currently viewing the `snackversion2` branch.
+
 ## ✨ Animation Features
 
 This app showcases various sophisticated animations implemented with React Native Reanimated v4:
@@ -32,6 +50,12 @@ This app showcases various sophisticated animations implemented with React Nativ
 
 ## 🚀 How to Run
 
+### 🌐 Try it on Expo Snack (Recommended)
+
+**Live Demo**: [https://snack.expo.dev/@sawankumar1012/github.com-sawankumar1012-clothingecommerceapp@snackversion2](https://snack.expo.dev/@sawankumar1012/github.com-sawankumar1012-clothingecommerceapp@snackversion2)
+
+**Important**: For the best experience, please **run this app in light mode on iOS**. The UI and animations are optimized for light mode display.
+
 ### Prerequisites
 - Node.js 16+ installed
 - Expo CLI installed globally: `npm install -g @expo/cli`
@@ -54,8 +78,7 @@ This app showcases various sophisticated animations implemented with React Nativ
    - Press `a` for Android Emulator  
    - Scan QR code with Expo Go app on your device
 
-### 📱 Snack Compatibility
-This app is now fully compatible with Expo Snack! The navigation has been converted from file-based routing (Expo Router) to standard React Navigation, making it work seamlessly in the Snack environment.
+
 
 ## 🏗️ Component Structure & State Management
 
@@ -134,30 +157,18 @@ components/
    - No data persistence or caching mechanism
    - Limited error handling for data loading
 
-2. **Performance**
-   - Large image sets may impact memory usage
-   - No image lazy loading implementation
-   - Animation performance may vary on older devices
-
-3. **Accessibility**
+2. **Accessibility**
    - Limited accessibility labels and screen reader support
    - No high contrast mode support
    - Gesture-based navigation may not be fully accessible
 
-4. **Platform Support**
-   - Web version has limited functionality
-   - Some animations may not work optimally on web
-   - Platform-specific optimizations not fully implemented
 
-5. **Customization**
+3. **Customization**
    - Theme system is basic (light/dark only)
    - Limited user preference settings
    - Fixed layout configurations
 
-6. **Content Management**
-   - No user-generated content support
-   - No search or filtering beyond basic categories
-   - No social features or sharing capabilities
+
 
 ### Future Improvements
 - Integration with real fashion APIs
@@ -167,22 +178,3 @@ components/
 - Social features and user accounts
 - Advanced search and recommendation engine
 
-## 🎨 Design Philosophy
-
-The app emphasizes **fluid interactions** and **delightful micro-animations** to create an engaging user experience. Every animation serves a purpose:
-- **Feedback**: Immediate visual response to user actions
-- **Continuity**: Smooth transitions between states
-- **Hierarchy**: Animations guide user attention
-- **Personality**: Subtle animations add character to the interface
-
-## 📱 App Features
-
-- **Collections**: Browse curated fashion collections with horizontal pagination
-- **Outfits**: View complete outfit combinations
-- **Items**: Explore individual fashion items with filtering
-- **Bookmarking**: Save favorite items and collections
-- **Dark/Light Theme**: Automatic theme switching based on system preferences
-
----
-
-*Built with ❤️ using Expo and React Native Reanimated*
