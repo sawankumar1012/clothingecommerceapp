@@ -3,7 +3,6 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import { cardHeight } from "../constants/appConstants";
 import Card from "./Card";
-
 interface SingleImageCardProps {
   image: string;
   title?: string;

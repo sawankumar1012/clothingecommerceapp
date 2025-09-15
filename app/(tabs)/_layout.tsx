@@ -1,8 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
-import Octicons from '@expo/vector-icons/build/Octicons';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { FontAwesome, Octicons } from '@expo/vector-icons';
 import { Colors } from '../../constants/theme';
 import { useColorScheme } from '../../hooks/use-color-scheme';
 
