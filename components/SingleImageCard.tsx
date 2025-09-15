@@ -1,8 +1,8 @@
 import { Image } from "expo-image";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { cardHeight } from "../constants/appConstants";
 import Card from "./Card";
-import { cardHeight } from "@/constants/appConstants";
 
 interface SingleImageCardProps {
   image: string;

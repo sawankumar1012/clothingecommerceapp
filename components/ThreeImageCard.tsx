@@ -1,8 +1,8 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import Card from "./Card";
 import { Image } from "expo-image";
-import { cardHeight } from "@/constants/appConstants";
+import React from "react";
+import { StyleSheet, View } from "react-native";
+import { cardHeight } from "../constants/appConstants";
+import Card from "./Card";
 type ThreeImageCardProps = {
   image1: string;
   image2: string;

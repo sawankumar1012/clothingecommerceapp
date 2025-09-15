@@ -1,0 +1,14 @@
+eslint.config.js
+metro.config.js
+.eslintrc.*
+scripts/
+ios/
+android/
+.expo/
+node_modules/
+*.lock
+package-lock.json
+Podfile*
+*.xcodeproj/
+*.xcworkspace/
+Pods/

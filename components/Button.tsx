@@ -1,4 +1,3 @@
-import { useThemeColor } from '@/hooks/use-theme-color';
 import React from 'react';
 import {
   StyleSheet,
@@ -6,6 +5,7 @@ import {
   type TouchableOpacityProps,
   type ViewStyle
 } from 'react-native';
+import { useThemeColor } from '../hooks/use-theme-color';
 
 export type ButtonProps = TouchableOpacityProps & {
   children: React.ReactNode;

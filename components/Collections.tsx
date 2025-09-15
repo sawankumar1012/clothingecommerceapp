@@ -1,5 +1,3 @@
-import { collectionsMock } from "@/constants/Mocks/optionsMock";
-import { productCollectionMock } from "@/constants/Mocks/productMock";
 import React, { useCallback, useMemo, useRef, useState } from "react";
 import {
   Dimensions,
@@ -8,6 +6,8 @@ import {
   StyleSheet,
   View,
 } from "react-native";
+import { collectionsMock } from "../constants/Mocks/optionsMock";
+import { productCollectionMock } from "../constants/Mocks/productMock";
 import IconChipButton from "./IconChipButton";
 import RenderCards from "./RenderCards";
 

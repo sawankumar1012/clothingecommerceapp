@@ -1,5 +1,3 @@
-import { ThemedText } from "@/components/themed-text";
-import { useThemeColor } from "@/hooks/use-theme-color";
 import React from "react";
 import { Pressable, StyleSheet } from "react-native";
 import Animated, {
@@ -9,6 +7,8 @@ import Animated, {
   withSpring
 } from "react-native-reanimated";
 import { scheduleOnRN } from "react-native-worklets";
+import { useThemeColor } from "../../../hooks/use-theme-color";
+import { ThemedText } from "../../themed-text";
 import { TabItemProps } from "./types";
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);

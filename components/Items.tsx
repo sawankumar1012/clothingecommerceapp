@@ -1,7 +1,7 @@
-import { optionsMock } from "@/constants/Mocks/optionsMock";
-import { productCollectionMock } from "@/constants/Mocks/productMock";
 import React, { useCallback, useMemo, useState } from "react";
 import { FlatList, ScrollView, StyleSheet, View } from "react-native";
+import { optionsMock } from "../constants/Mocks/optionsMock";
+import { productCollectionMock } from "../constants/Mocks/productMock";
 import ArrowDownChipButton from "./ArrowDownChipButton";
 import SingleImageCard from "./SingleImageCard";
 

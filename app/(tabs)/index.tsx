@@ -1,11 +1,11 @@
-import Collections from '@/components/Collections';
-import Items from '@/components/Items';
-import Outfits from '@/components/Outfits';
-import { ThemedText } from '@/components/themed-text';
-import Background from '@/components/ui/Background';
-import { TabItemType, TabSelector } from '@/components/ui/tab-selector';
 import React, { useState } from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Collections from '../../components/Collections';
+import Items from '../../components/Items';
+import Outfits from '../../components/Outfits';
+import { ThemedText } from '../../components/themed-text';
+import Background from '../../components/ui/Background';
+import { TabItemType, TabSelector } from '../../components/ui/tab-selector';
 
 const TABS: TabItemType[] = [
   { id: '1', label: 'Collections', value: 'collections' },

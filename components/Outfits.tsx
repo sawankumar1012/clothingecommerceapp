@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
+import { productCollectionMock } from '../constants/Mocks/productMock';
 import ThreeImageCard from './ThreeImageCard';
-import { productCollectionMock } from '@/constants/Mocks/productMock';
 
 
 export default function Outfits() {

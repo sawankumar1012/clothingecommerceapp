@@ -1,7 +1,6 @@
-import { useThemeColor } from '@/hooks/use-theme-color';
 import React, { useCallback, useState } from 'react';
 import { LayoutChangeEvent, StyleSheet, View } from 'react-native';
-import { SlidingIndicator } from './SlidingIndicator';
+import { useThemeColor } from '../../../hooks/use-theme-color';
 import { TabItem } from './TabItem';
 import { TabSelectorProps } from './types';
 

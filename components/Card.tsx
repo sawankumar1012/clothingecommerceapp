@@ -1,8 +1,8 @@
-import { Colors } from "@/constants/theme";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import React from "react";
 import { StyleSheet, ViewStyle } from "react-native";
-import Animated, { FadeIn, FadeOut, ZoomIn, ZoomOut } from 'react-native-reanimated';
+import Animated, { ZoomIn, ZoomOut } from 'react-native-reanimated';
+import { Colors } from "../constants/theme";
 type CardProps = {
   children: React.ReactNode;
   style?: ViewStyle;

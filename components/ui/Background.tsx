@@ -1,7 +1,7 @@
-import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
+import { StyleSheet, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { Colors } from '@/constants/theme'
+import { Colors } from '../../constants/theme'
 import SparkleIcon from '../icons/SparkleIcon'
 
 const Background = ({children}: {children: React.ReactNode}) => {

@@ -18,7 +18,7 @@ A highly customizable and animated tab selector component for React Native with 
 
 ```tsx
 import React, { useState } from 'react';
-import { TabSelector, TabItemType } from '@/components/ui/tab-selector';
+import { TabSelector, TabItemType } from './components/ui/tab-selector';
 
 const tabs: TabItemType[] = [
   { id: '1', label: 'Collections', value: 'collections' },
@@ -110,8 +110,8 @@ The component automatically uses your app's theme colors:
 ## Dependencies
 
 - `react-native-reanimated` (v4.1.0+)
-- `@/hooks/use-theme-color` (included in project)
-- `@/components/themed-text` (included in project)
+- `../../../hooks/use-theme-color` (included in project)
+- `../../themed-text` (included in project)
 
 ## File Structure
 
